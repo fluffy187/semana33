@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>trabajo semana 33</title> 
+    <style>
+        .papa{
+              width: 800px;
+              height: 500px;
+              top: 10px;
+              left: 300px;
+              font-size: 30px;
+              background: #47BEC6;
+              color: black;
+              border: solid;
+              border-color: black;
+              border-radius: 5px;
+        }
+        .hijo1{
+            position: absolute;
+        left: 20px;
+        top: 150px;
+        }
+        .hijo2{
+            position: absolute;
+        left: 20px;
+        top: 200px;
+        }
+        .hijo3{
+            position: absolute;
+        left: 20px;
+        top: 250px;
+        }
+        .bot{
+            position: absolute;
+            top: 200px;
+            left: 250px;
+            width: 150px;
+            height: 50px;
+            border: solid;
+            border-color: black;
+            border-radius: 10px;
+        }
+</style>
+</head>
+<body>
+    <div class="papa">
+    <div class="hijo1"></div>
+    <div class="p">Tenemos papas a(3500)</div>
+    <div class="d">Tenemos doritos a(1500)</div>
+    <div class="c">Tenemos chocolatina a(2500)</div>
+    </div>
+
+    <div id="papita"></div>
+    <div id="dori"></div>
+    <div id="choco"></div>
+    <div id="holi"></div>
+    <div id="holi1"></div>
+    <div id="holi2"></div>
+
+<form>
+        <center><input class="hijo1" type="text" name="datos1" placeholder="Compra"></center>
+      <center><input class="hijo2" type="text" name="datos2" placeholder="Cantidad"></center>
+        <center><input class="hijo3" type="text" name="datos3" placeholder="Mi Dinero"></center>
+</form>
+                <div class="bot" onclick="calcu()" id="boton"> Proseso</div>
+
+        <script >
+    function calcu(){
+    holi=Number(datos.value)
+
+    holi1=Number(datos2.value)
+    holi2=Number(v3500)
+
+
+    bot.innerHTML="compraste " + dato + "y tu cuenta es "+ r ;
+if(dato==papas)
+{
+holi2=v3500
+m=holi2-3500
+}
+
+if(dato==doritos)
+{
+holi2=v1500
+m=holi2-1500
+}
+
+if(dato==chocolatina)
+{
+holi2=v2500
+m=holi2-2500
+}
